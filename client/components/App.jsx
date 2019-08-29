@@ -4,10 +4,19 @@ import Trail from './Trail'
 
 const App = () => {
   return (
-    <React.Fragment>
-      <h1>React development has begun!</h1>
-      <Trail />
-    </React.Fragment>
+    <>
+      <div className='header'>
+        <h1>Ted Rainger</h1>
+      </div>
+
+      <div className='track'>
+        <Trail />
+      </div>
+
+      <div className='footer'>
+        <span>Doggo 1</span> <span>Doggo 2</span> <span>Doggo 3</span>
+      </div>
+    </>
   )
 }
 
