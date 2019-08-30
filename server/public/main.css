@@ -8,9 +8,11 @@ body {
   padding: 0px;
   background-color: blueviolet;
   text-align: center;
+  position: relative;
+  z-index: 2;
 }
 
-h1 {
+.header h1 {
   margin: 0px;
   padding-top: 25px;
   color: white;
@@ -35,6 +37,7 @@ h1 {
   height: 80vh;
   z-index: -5;
   background-size: 50%, 100%;
+  position: absolute;
   
   /* overflow: hidden; */
   /* background-repeat: no-repeat; */
@@ -47,11 +50,29 @@ h1 {
 
 @keyframes backgroundScroll {
   from {transform: translateX(0)}
-  to {transform: translateX(-60%);}
+  to {transform: translateX(-20%);}
   }
 
+.doggotrack {
+  width: 250vw;
+  height: 80vh;
+  background-color: rgba(0, 0, 0, 0);
+  position: fixed;
+}
 
+.doggo {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  position: relative;
+  top: 190px;
+  z-index: 3;
+}
 
+p {
+  height: 5px;
+  width: 10px;
+}
 
 span {
   font-size: 20px;
@@ -69,6 +90,14 @@ span {
 .FONT {
   font-family: monospace;
 } 
+
+.finishLine {
+  position: absolute;
+  left: 1350px;
+  bottom: -80px;
+  z-index: 1;
+  height: 100vh;
+}
 
 .win{
   
@@ -92,6 +121,7 @@ span {
   background-color: yellowgreen;
   z-index: 999;
 }
+
 
 .circle {
   border-radius: 50%;
@@ -117,7 +147,11 @@ span {
   background-color: peachpuff
 }
 
-h1 {
-  color: black
+.footh1 {
+  color: rgb(255, 255, 255);
+}
+
+.footheight{
+  height: 15vh;
 }
 

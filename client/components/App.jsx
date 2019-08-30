@@ -24,13 +24,13 @@ const App = () => {
       <Header />
        </div> 
 
-      <div className='track'>
-   
+      <div className='track'></div>
+      <div className='doggotrack'>
+        <img className='finishLine' src='/finishline.png'/>
         <Trail />
-      
       </div>
         <FinishLine />
-      <div className='footer'>
+      <div className='footer fixed-bottom'>
         <Footer />
         <span>Doggo 1</span> <span>Doggo 2</span> <span>Doggo 3</span>
       </div>
