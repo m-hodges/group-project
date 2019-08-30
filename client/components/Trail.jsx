@@ -3,7 +3,7 @@ import React from 'react'
 class Trail extends React.Component {
   state = {
     style: {
-      backgroundColor: 'yellow',
+      backgroundColor: 'aqua',
       height: '50px',
       width: '100px',
       display: 'inline-block',
@@ -11,7 +11,7 @@ class Trail extends React.Component {
       top: '190px'
     },
     style2: {
-      backgroundColor: 'red',
+      backgroundColor: 'green',
       height: '50px',
       width: '100px',
       display: 'inline-block',
@@ -19,7 +19,7 @@ class Trail extends React.Component {
       top: '190px'
     },
     style3: {
-      backgroundColor: 'blue',
+      backgroundColor: 'hotpink',
       height: '50px',
       width: '100px',
       display: 'inline-block',
@@ -43,7 +43,7 @@ class Trail extends React.Component {
     if (evt.key === 'q') {
       this.setState({
         style: {
-          backgroundColor: 'yellow',
+          backgroundColor: 'aqua',
           height: '50px',
           width: `${this.state.counter}px`,
           display: 'inline-block',
@@ -60,7 +60,7 @@ class Trail extends React.Component {
     } else if (evt.key === 'p') {
       this.setState({
         style2: {
-          backgroundColor: 'red',
+          backgroundColor: 'green',
           height: '50px',
           width: `${this.state.counter2}px`,
           display: 'inline-block',
@@ -74,10 +74,10 @@ class Trail extends React.Component {
         window.confirm(`${this.state.name} won!`)
         window.location = '#/winnertwo'
       }
-    } else if (evt.key === ' ') {
+    } else if (evt.key === 't') {
       this.setState({
         style3: {
-          backgroundColor: 'blue',
+          backgroundColor: 'hotpink',
           height: '50px',
           width: `${this.state.counter3}px`,
           display: 'inline-block',

@@ -10,7 +10,7 @@ export default class Header extends Component {
       <img src="https://img.icons8.com/color/96/000000/dog-house.png"></img> 
 
         <h1 className='FONT'>THE BALLAD OF TED RAINGER</h1> 
-        <h3 className='FONT'>TAP Q, P & Space to begin the race</h3>
+        <h3 className='FONT'>TAP Q, P & T to begin the race</h3>
 
       </div>
 
