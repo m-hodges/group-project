@@ -54,38 +54,8 @@ class Trail extends React.Component {
         name: 'Blossom'
       })
       if (this.state.counter === this.state.finishedGame) {
-        alert(`${this.state.name} won!`)
-        this.setState({
-        counter: 100,
-        style: {
-          backgroundColor: 'yellow',
-          height: '50px',
-          width: '100px',
-          display: 'inline-block',
-          position: 'relative',
-          top: '190px'
-        },
-
-        counter2: 100,
-        style2: {
-          backgroundColor: 'red',
-          height: '50px',
-          width: '100px',
-          display: 'inline-block',
-          position: 'relative',
-          top: '190px'
-        },
-
-        count3: 100,
-        style3: {
-          backgroundColor: 'blue',
-          height: '50px',
-          width: '100px',
-          display: 'inline-block',
-          position: 'relative',
-          top: '190px'
-        }
-        })
+        window.confirm(`${this.state.name} won!`)
+        window.location = '#/winner'
       }
     } else if (evt.key === 'p') {
       this.setState({
@@ -101,38 +71,8 @@ class Trail extends React.Component {
         name: 'Bubbles'
       })
       if (this.state.counter2 === this.state.finishedGame) {
-        alert(`${this.state.name} won!`)
-        this.setState({
-        counter: 100,
-        style: {
-          backgroundColor: 'yellow',
-          height: '50px',
-          width: '100px',
-          display: 'inline-block',
-          position: 'relative',
-          top: '190px'
-        },
-
-        counter2: 100,
-        style2: {
-          backgroundColor: 'red',
-          height: '50px',
-          width: '100px',
-          display: 'inline-block',
-          position: 'relative',
-          top: '190px'
-        },
-
-        count3: 100,
-        style3: {
-          backgroundColor: 'blue',
-          height: '50px',
-          width: '100px',
-          display: 'inline-block',
-          position: 'relative',
-          top: '190px'
-        }
-      })
+        window.confirm(`${this.state.name} won!`)
+        window.location = '#/winnertwo'
       }
     } else if (evt.key === ' ') {
       this.setState({
@@ -148,38 +88,8 @@ class Trail extends React.Component {
         name: 'Buttercup'
       })
       if (this.state.counter3 === this.state.finishedGame) {
-        alert(`${this.state.name} won!`)
-        this.setState({
-        counter: 100,
-        style: {
-          backgroundColor: 'yellow',
-          height: '50px',
-          width: '100px',
-          display: 'inline-block',
-          position: 'relative',
-          top: '190px'
-        },
-
-        counter2: 100,
-        style2: {
-          backgroundColor: 'red',
-          height: '50px',
-          width: '100px',
-          display: 'inline-block',
-          position: 'relative',
-          top: '190px'
-        },
-
-        count3: 100,
-        style3: {
-          backgroundColor: 'blue',
-          height: '50px',
-          width: '100px',
-          display: 'inline-block',
-          position: 'relative',
-          top: '190px'
-        }
-      })
+        window.confirm(`${this.state.name} won!`)
+        window.location = '#/winnerthree'
       }
     }
 

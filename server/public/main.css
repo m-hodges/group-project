@@ -98,6 +98,31 @@ span {
   z-index: 1;
   height: 100vh;
 }
+
+.win{
+  
+  font-family: inherit
+  
+  
+} 
+
+.winnerTwo {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: blueviolet;
+  z-index: 999;
+} 
+
+.winnerThree {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: yellowgreen;
+  z-index: 999;
+}
+
+
 .circle {
   border-radius: 50%;
   width: 120px;
@@ -129,3 +154,4 @@ span {
 .footheight{
   height: 15vh;
 }
+

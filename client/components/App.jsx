@@ -9,12 +9,16 @@ import Footer from './Footer'
 import FinishLine from './FinishLine';
 
 import Winner from './Winner'
+import WinnerTwo from './WinnerTwo'
+import WinnerThree from './WinnerThree'
 
 
 const App = () => {
   return (
     <>
       <Route path="/winner" component={Winner} />
+      <Route path="/winnertwo" component={WinnerTwo} />
+      <Route path="/winnerthree" component={WinnerThree} />
 
     <div className='header'>
       <Header />
