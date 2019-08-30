@@ -4,7 +4,7 @@ body {
 
 .header {
   width: 100%;
-  height: 100px;
+  height: 20vh;
   padding: 0px;
   background-color: blueviolet;
   text-align: center;
@@ -25,10 +25,21 @@ h1 {
   bottom: 0px;
 }
 
+
 .track {
-  background-color: brown;
-  width: 100%;
-  height: 600px;
+  background-image: url('./BattleJockey.jpg');
+  width: 250vw;
+  height: 80vh;
+  z-index: -5;
+  background-size: 50%, 100%;
+  
+  /* overflow: hidden; */
+  /* background-repeat: no-repeat; */
+  /* position: absolute; */
+
+  animation-name: backgroundScroll;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
 }
 
 .doggo {
@@ -41,3 +52,20 @@ p {
   height: 113px;
   width: 10px;
 }
+@keyframes backgroundScroll {
+  from {transform: translateX(0)}
+  to {transform: translateX(-60%);}
+  }
+
+
+
+
+span {
+  font-size: 20px;
+  color: white;
+
+} 
+
+.FONT {
+  font-family: monospace;
+} 
