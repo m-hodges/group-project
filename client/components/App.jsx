@@ -1,16 +1,21 @@
 import React from 'react'
+
 import Header from './Header'
 import Trail from './Trail'
 
+
 const App = () => {
   return (
+
     <> 
     <div className='header'>
       <Header />
        </div> 
 
       <div className='track'>
+   
         <Trail />
+      
       </div>
 
       <div className='footer'>
