@@ -8,6 +8,8 @@ body {
   padding: 0px;
   background-color: blueviolet;
   text-align: center;
+  position: relative;
+  z-index: 2;
 }
 
 h1 {
@@ -61,6 +63,7 @@ h1 {
   display: inline-block;
   position: relative;
   top: 190px;
+  z-index: 3;
 }
 
 p {
@@ -77,3 +80,11 @@ span {
 .FONT {
   font-family: monospace;
 } 
+
+.finishLine {
+  position: absolute;
+  left: 1350px;
+  bottom: -80px;
+  z-index: 1;
+  height: 100vh;
+}

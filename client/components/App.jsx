@@ -14,6 +14,7 @@ const App = () => {
 
       <div className='track'></div>
       <div className='doggotrack'>
+        <img className='finishLine' src='/finishline.png'/>
         <Trail />
       </div>
 
