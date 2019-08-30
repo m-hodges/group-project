@@ -31,7 +31,13 @@ h1 {
   height: 600px;
 }
 
-span {
-  font-size: 20px;
-  color: white;
+.test {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
+p {
+  height: 113px;
+  width: 10px;
 }
