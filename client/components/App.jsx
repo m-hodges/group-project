@@ -1,10 +1,8 @@
 import React from 'react'
 
-import Dog from './Dog'
-
 import Header from './Header'
 import Trail from './Trail'
-import Background from './Background';
+
 
 const App = () => {
   return (
