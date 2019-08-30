@@ -4,27 +4,33 @@ class Trail extends React.Component {
   state = {
     style: {
       backgroundColor: 'yellow',
-      height: '100px',
+      height: '50px',
       width: '100px',
       display: 'inline-block',
+      position: 'relative',
+      top: '190px'
     },
     style2: {
       backgroundColor: 'red',
-      height: '100px',
+      height: '50px',
       width: '100px',
       display: 'inline-block',
+      position: 'relative',
+      top: '190px'
     },
     style3: {
       backgroundColor: 'blue',
-      height: '100px',
+      height: '50px',
       width: '100px',
       display: 'inline-block',
+      position: 'relative',
+      top: '190px'
     },
     counter: 100,
     counter2: 100,
     counter3: 100,
 
-    finishedGame: 1360,
+    finishedGame: 1400,
   }
 
   UNSAFE_componentWillMount () {
@@ -38,9 +44,11 @@ class Trail extends React.Component {
       this.setState({
         style: {
           backgroundColor: 'yellow',
-          height: '100px',
+          height: '50px',
           width: `${this.state.counter}px`,
           display: 'inline-block',
+          position: 'relative',
+          top: '190px'
         },
         counter: this.state.counter + 20,
         name: 'Blossom'
@@ -51,25 +59,31 @@ class Trail extends React.Component {
         counter: 100,
         style: {
           backgroundColor: 'yellow',
-          height: '100px',
+          height: '50px',
           width: '100px',
           display: 'inline-block',
+          position: 'relative',
+          top: '190px'
         },
 
         counter2: 100,
         style2: {
           backgroundColor: 'red',
-          height: '100px',
+          height: '50px',
           width: '100px',
           display: 'inline-block',
+          position: 'relative',
+          top: '190px'
         },
 
         count3: 100,
         style3: {
           backgroundColor: 'blue',
-          height: '100px',
+          height: '50px',
           width: '100px',
           display: 'inline-block',
+          position: 'relative',
+          top: '190px'
         }
         })
       }
@@ -77,9 +91,11 @@ class Trail extends React.Component {
       this.setState({
         style2: {
           backgroundColor: 'red',
-          height: '100px',
+          height: '50px',
           width: `${this.state.counter2}px`,
           display: 'inline-block',
+          position: 'relative',
+          top: '190px'
         },
         counter2: this.state.counter2 + 20,
         name: 'Bubbles'
@@ -90,25 +106,31 @@ class Trail extends React.Component {
         counter: 100,
         style: {
           backgroundColor: 'yellow',
-          height: '100px',
+          height: '50px',
           width: '100px',
           display: 'inline-block',
+          position: 'relative',
+          top: '190px'
         },
 
         counter2: 100,
         style2: {
           backgroundColor: 'red',
-          height: '100px',
+          height: '50px',
           width: '100px',
           display: 'inline-block',
+          position: 'relative',
+          top: '190px'
         },
 
         count3: 100,
         style3: {
           backgroundColor: 'blue',
-          height: '100px',
+          height: '50px',
           width: '100px',
           display: 'inline-block',
+          position: 'relative',
+          top: '190px'
         }
       })
       }
@@ -116,9 +138,11 @@ class Trail extends React.Component {
       this.setState({
         style3: {
           backgroundColor: 'blue',
-          height: '100px',
+          height: '50px',
           width: `${this.state.counter3}px`,
           display: 'inline-block',
+          position: 'relative',
+          top: '190px'
         },
         counter3: this.state.counter3 + 20,
         name: 'Buttercup'
@@ -129,25 +153,31 @@ class Trail extends React.Component {
         counter: 100,
         style: {
           backgroundColor: 'yellow',
-          height: '100px',
+          height: '50px',
           width: '100px',
           display: 'inline-block',
+          position: 'relative',
+          top: '190px'
         },
 
         counter2: 100,
         style2: {
           backgroundColor: 'red',
-          height: '100px',
+          height: '50px',
           width: '100px',
           display: 'inline-block',
+          position: 'relative',
+          top: '190px'
         },
 
         count3: 100,
         style3: {
           backgroundColor: 'blue',
-          height: '100px',
+          height: '50px',
           width: '100px',
           display: 'inline-block',
+          position: 'relative',
+          top: '190px'
         }
       })
       }

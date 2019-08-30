@@ -12,10 +12,9 @@ const App = () => {
       <Header />
        </div> 
 
-      <div className='track'>
-   
+      <div className='track'></div>
+      <div className='doggotrack'>
         <Trail />
-      
       </div>
 
       <div className='footer'>
