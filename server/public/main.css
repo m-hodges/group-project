@@ -35,3 +35,11 @@ span {
   font-size: 20px;
   color: white;
 }
+
+.winner {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: pink;
+  z-index: 999;
+}

@@ -1,10 +1,14 @@
 import React from 'react'
+import { Route } from 'react-router-dom'
 
 import Trail from './Trail'
+import Winner from './Winner'
 
 const App = () => {
   return (
     <>
+      <Route path="/winner" component={Winner} />
+
       <div className='header'>
         <h1>Ted Rainger</h1>
       </div>

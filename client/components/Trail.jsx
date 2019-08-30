@@ -35,7 +35,12 @@ class Trail extends React.Component {
           width: `${this.state.counter}px`
         },
         counter: this.state.counter + 20
-      })
+      }
+      )
+      if (this.state.counter === 400) {
+        window.confirm('winner winner chicken dinner')
+        window.location = '#/winner'
+      }
     } else if (evt.key === 'p') {
       this.setState({
         style2: {
