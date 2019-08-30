@@ -25,6 +25,9 @@ h1 {
   bottom: 0px;
 }
 
+.finishLine{
+  position: fixed;
+}
 
 .track {
   background-image: url('./BattleJockey.jpg');
