@@ -1,13 +1,13 @@
 import React from 'react'
-
+import Header from './Header'
 import Trail from './Trail'
 
 const App = () => {
   return (
-    <>
-      <div className='header'>
-        <h1>Ted Rainger</h1>
-      </div>
+    <> 
+    <div className='header'>
+      <Header />
+       </div> 
 
       <div className='track'>
         <Trail />

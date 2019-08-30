@@ -16,6 +16,7 @@ class Trail extends React.Component {
         backgroundColor: 'yellow',
         height: '20px',
         width: `${this.state.counter}px`
+        
       },
       counter: this.state.counter + 20
     })
