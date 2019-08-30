@@ -27,6 +27,8 @@ class Trail extends React.Component {
   }
 
   buttonHandler = evt => {
+
+
     if (evt.key === 'q') {
       this.setState({
         style: {
@@ -55,6 +57,7 @@ class Trail extends React.Component {
         counter3: this.state.counter3 + 20
       })
     }
+
   }
 
   render () {
