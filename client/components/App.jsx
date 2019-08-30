@@ -8,6 +8,7 @@ import Dog from './Dog'
 
 
 import Trail from './Trail'
+import Background from './Background';
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       </div>
 
       <div className='track'>
+        <Background />
         <Trail />
       </div>
 
