@@ -1,26 +1,23 @@
 import React from 'react'
-import { Route } from 'react-router-dom'
 
 import Dog from './Dog'
 
-
-
-
-
+import Header from './Header'
 import Trail from './Trail'
 import Background from './Background';
 
 const App = () => {
   return (
 
-    <>
-      <div className='header'>
-        <h1>Ted Rainger</h1>
-      </div>
+    <> 
+    <div className='header'>
+      <Header />
+       </div> 
 
       <div className='track'>
-        <Background />
+   
         <Trail />
+      
       </div>
 
       <div className='footer'>
