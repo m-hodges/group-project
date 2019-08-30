@@ -1,0 +1,71 @@
+body {
+  margin: 0px;
+}
+
+.header {
+  width: 100%;
+  height: 20vh;
+  padding: 0px;
+  background-color: blueviolet;
+  text-align: center;
+}
+
+h1 {
+  margin: 0px;
+  padding-top: 25px;
+  color: white;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: green;
+  text-align: center;
+  position: absolute;
+  bottom: 0px;
+}
+
+.finishLine{
+  position: fixed;
+}
+
+.track {
+  background-image: url('./BattleJockey.jpg');
+  width: 250vw;
+  height: 80vh;
+  z-index: -5;
+  background-size: 50%, 100%;
+  
+  /* overflow: hidden; */
+  /* background-repeat: no-repeat; */
+  /* position: absolute; */
+
+  animation-name: backgroundScroll;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes backgroundScroll {
+  from {transform: translateX(0)}
+  to {transform: translateX(-60%);}
+  }
+
+
+
+
+span {
+  font-size: 20px;
+  color: white;
+}
+
+.winner {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: pink;
+  z-index: 999;
+}
+
+.FONT {
+  font-family: monospace;
+} 

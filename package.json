@@ -30,6 +30,9 @@
   },
   "dependencies": {
     "express": "^4.16.4",
+    "react-keydown": "^1.9.12",
+    "react-router": "^5.0.1",
+    "react-router-dom": "^5.0.1",
     "superagent": "^5.0.2"
   },
   "devDependencies": {
