@@ -52,6 +52,10 @@ class Trail extends React.Component {
         },
         counter2: this.state.counter2 + 20
       })
+      if (this.state.counter2 === 400) {
+        window.confirm('winner winner chicken dinner')
+        window.location = '#/winnertwo'
+      }
     } else if (evt.key === ' ') {
       this.setState({
         style3: {
@@ -60,7 +64,11 @@ class Trail extends React.Component {
           width: `${this.state.counter3}px`
         },
         counter3: this.state.counter3 + 20
-      })
+      }) 
+      if (this.state.counter3 === 400) {
+        window.confirm('winner winner chicken dinner')
+        window.location = '#/winnerthree'
+      }
     }
 
   }
