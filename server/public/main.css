@@ -25,6 +25,9 @@ h1 {
   bottom: 0px;
 }
 
+.finishLine{
+  position: fixed;
+}
 
 .track {
   background-image: url('./BattleJockey.jpg');
@@ -89,3 +92,32 @@ span {
   background-color: yellowgreen;
   z-index: 999;
 }
+
+.circle {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  margin: 0;
+  align-items: center;
+}
+
+.aqua {
+  background-color: green
+}
+
+.red {
+  background-color: hotpink
+}
+
+.green {
+  background-color: aqua
+}
+
+.teal {
+  background-color: peachpuff
+}
+
+h1 {
+  color: black
+}
+
